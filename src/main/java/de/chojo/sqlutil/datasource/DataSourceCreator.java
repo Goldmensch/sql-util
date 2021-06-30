@@ -73,7 +73,7 @@ public class DataSourceCreator implements PropertyStage, ConfigurationStage {
 
     @Override
     public PropertyStage withUser(String user) {
-        properties.setProperty("dataSource.serverName", user);
+        properties.setProperty("dataSource.user", user);
         return this;
     }
 
